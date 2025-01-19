@@ -1,0 +1,6 @@
+StepDefinitions\LoginStepDefinitions.class
+Pages\FileDownloadPage.class
+Runner\TestRunner2.class
+StepDefinitions\PDFStepDefinitions.class
+Pages\LoginPage.class
+Pages\HomePage.class
