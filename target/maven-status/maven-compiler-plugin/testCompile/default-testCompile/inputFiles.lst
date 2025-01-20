@@ -1,7 +1,5 @@
-F:\eclipse-workspace\SeleniumBDD\src\test\java\Runner\TestRunner2.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\Pages\FileDownloadPage.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\Pages\HomePage.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\StepDefinitions\LoginStepDefinitions.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\Pages\LoginPage.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\StepDefinitions\PDFStepDefinitions.java
-F:\eclipse-workspace\SeleniumBDD\src\test\java\Runner\TestRunnerJunit.java
+F:\eclipse-workspace\SeleniumBDD\src\test\java\hooks\DriverProperties.java
+F:\eclipse-workspace\SeleniumBDD\src\test\java\stepDefinitions\LoginStepDefinitions.java
+F:\eclipse-workspace\SeleniumBDD\src\test\java\hooks\Hooks.java
+F:\eclipse-workspace\SeleniumBDD\src\test\java\stepDefinitions\PDFStepDefinitions.java
+F:\eclipse-workspace\SeleniumBDD\src\test\java\runner\TestRunnerJunit.java

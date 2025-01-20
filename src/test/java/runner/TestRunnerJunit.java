@@ -16,9 +16,9 @@ import io.cucumber.junit.Cucumber;
 		plugin= {"pretty","html:target/HTMLReports/index.html",
 				"pretty","junit:target/XMLReports/index.xml",
 				"pretty","html:target/JSONReports/index.json",
-			    "me.jvt.cucumber.report.PrettyReports:target/cucumber",
-			    "rerun:target/FailedScenarios/failedScenarios.txt"},
-		tags="@LoginPage"
+			    "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+			}
+//		tags="@LoginPage"
 
 
 		)

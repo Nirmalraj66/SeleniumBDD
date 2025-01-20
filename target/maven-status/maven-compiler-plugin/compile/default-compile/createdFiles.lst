@@ -1,0 +1,4 @@
+pages\FileDownloadPage.class
+utils\ConfigReader.class
+pages\LoginPage.class
+pages\HomePage.class

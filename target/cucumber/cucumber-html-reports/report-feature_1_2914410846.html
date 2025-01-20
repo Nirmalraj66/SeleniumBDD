@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>13 Jan 2025, 00:55</td>
+      <td>20 Jan 2025, 19:19</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="90449506900">1:30.449</td>
+          <td class="duration" data-value="91356515300">1:31.356</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -191,7 +191,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">45.272</span>
+  <span class="lead-duration duration">46.229</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -227,25 +227,9 @@ $(document).ready(function() {
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-              <span class="location name">StepDefinitions.LoginStepDefinitions.intializeBrowser()</span>
+              <span class="location name">hooks.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">1.616</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">StepDefinitions.PDFStepDefinitions.intializeBrowser()</span>
-
-  <span class="lead-duration duration">1.628</span>
+  <span class="lead-duration duration">3.748</span>
 
           </div>
 
@@ -282,7 +266,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I hit the URL for Download</span>
 
-  <span class="lead-duration duration">4.114</span>
+  <span class="lead-duration duration">4.925</span>
 
 </div>
 
@@ -309,7 +293,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I download the file</span>
 
-  <span class="lead-duration duration">41.158</span>
+  <span class="lead-duration duration">41.303</span>
 
 </div>
 
@@ -327,17 +311,17 @@ $(document).ready(function() {
         <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='samplePDF.pdf']' (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
-	at StepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:49)
+	at pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
+	at stepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:51)
 	at &#10045;.I download the file(file:///F:/eclipse-workspace/SeleniumBDD/src/test/resources/Features/PDFValidation.feature:6)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()='samplePDF.pdf']&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NIRMAL-LAPTOP', ip: '192.168.136.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+System info: host: 'NIRMAL-LAPTOP', ip: '192.168.182.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\NIRMAL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 857590e2eac6291bb0d603cc949663e9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\NIRMAL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c12504692096c2469ec3ec9919af7987
 *** Element info: {Using=xpath, value=//a[text()='samplePDF.pdf']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -362,8 +346,8 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at Pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
-	at StepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:49)
+	at pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
+	at stepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -408,12 +392,33 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
 	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:66)
+	at org.testng.TestRunner$1.run(TestRunner.java:672)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:871)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:701)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 </pre>
       </div>
     </div>
@@ -480,25 +485,9 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-              <span class="location name">StepDefinitions.PDFStepDefinitions.teardown()</span>
+              <span class="location name">hooks.Hooks.teardown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.317</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">StepDefinitions.LoginStepDefinitions.teardown(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.530</span>
+  <span class="lead-duration duration">0.637</span>
 
           </div>
 
@@ -511,7 +500,7 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>File download validation</a>
-      <a href="embeddings/embedding_-998692231.png" download target="_blank">
+      <a href="embeddings/embedding_-2142166523.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
@@ -538,7 +527,7 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
 </div>
 
 
-  <span class="lead-duration duration">45.176</span>
+  <span class="lead-duration duration">45.127</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
@@ -574,25 +563,9 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-              <span class="location name">StepDefinitions.LoginStepDefinitions.intializeBrowser()</span>
+              <span class="location name">hooks.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">1.447</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">StepDefinitions.PDFStepDefinitions.intializeBrowser()</span>
-
-  <span class="lead-duration duration">1.078</span>
+  <span class="lead-duration duration">4.534</span>
 
           </div>
 
@@ -629,7 +602,7 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
   <span class="keyword indention">Given</span>
   <span class="name">I hit the URL for Download</span>
 
-  <span class="lead-duration duration">4.016</span>
+  <span class="lead-duration duration">3.998</span>
 
 </div>
 
@@ -656,7 +629,7 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
   <span class="keyword indention">When</span>
   <span class="name">I download the file</span>
 
-  <span class="lead-duration duration">41.159</span>
+  <span class="lead-duration duration">41.129</span>
 
 </div>
 
@@ -674,17 +647,17 @@ Session ID: 857590e2eac6291bb0d603cc949663e9
         <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='samplePDF.pdf']' (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
-	at StepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:49)
+	at pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
+	at stepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:51)
 	at &#10045;.I download the file(file:///F:/eclipse-workspace/SeleniumBDD/src/test/resources/Features/PDFValidation.feature:6)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()='samplePDF.pdf']&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NIRMAL-LAPTOP', ip: '192.168.136.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+System info: host: 'NIRMAL-LAPTOP', ip: '192.168.182.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\NIRMAL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e794e88d00f903453e9c09dff01b0217
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\NIRMAL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de662f6c7fe7fb9140b350def3f419d6
 *** Element info: {Using=xpath, value=//a[text()='samplePDF.pdf']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -709,8 +682,8 @@ Session ID: e794e88d00f903453e9c09dff01b0217
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at Pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
-	at StepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:49)
+	at pages.FileDownloadPage.clickOnElement(FileDownloadPage.java:31)
+	at stepDefinitions.PDFStepDefinitions.downLoadFile(PDFStepDefinitions.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -755,12 +728,33 @@ Session ID: e794e88d00f903453e9c09dff01b0217
 	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:66)
+	at org.testng.TestRunner$1.run(TestRunner.java:672)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:871)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:701)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 </pre>
       </div>
     </div>
@@ -827,25 +821,9 @@ Session ID: e794e88d00f903453e9c09dff01b0217
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-              <span class="location name">StepDefinitions.PDFStepDefinitions.teardown()</span>
+              <span class="location name">hooks.Hooks.teardown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.188</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">StepDefinitions.LoginStepDefinitions.teardown(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.391</span>
+  <span class="lead-duration duration">0.675</span>
 
           </div>
 
@@ -858,7 +836,7 @@ Session ID: e794e88d00f903453e9c09dff01b0217
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
       <a>File download validation</a>
-      <a href="embeddings/embedding_-998692231.png" download target="_blank">
+      <a href="embeddings/embedding_-249997950.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
